@@ -1,0 +1,141 @@
+
+.outer-box{
+    background: rgb(173,44,255);
+background: linear-gradient(183deg, rgba(173,44,255,1) 34%, rgba(37,205,253,1) 100%);
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 60px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.231);
+}
+.inner-box{
+    background-color: #12192c;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+#user-logo{
+    border-radius: 50%;
+    margin:auto;
+    display: block;
+    padding: 40px;
+    width: 150px;
+
+}
+.inner-box p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -20px;
+}
+#line{
+    color: #b620ff;
+    margin-top: -90px;
+}
+.inner-box #web{
+    font-size: 25px
+}
+.fa-instagram{
+    color: white;
+}
+.insta{
+    background-color: #b620ff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.insta:hover{
+    background-color: #12192c;
+    transition: 0.5s;
+}
+
+.twitter{
+    background-color: #b620ff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.twitter:hover{
+    background-color: #12192c;
+    transition: 0.5s
+}
+
+.linkedin{
+    background-color: #b620ff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.linkedin:hover{
+    background-color: #12192c;
+    transition: 0.5s
+}
+
+#arrange{
+    display: flex;
+    gap: 140px;
+    padding: 30px;
+
+}
+
+.fa-brands{ 
+    font-size: 40px;
+    margin: auto;
+    display: block;
+}
+.sec-box{
+    width: 600px;
+    height: 600px;
+    background-color: #12192c;
+    margin-top:60px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.231);
+}
+.side{
+    display: flex;
+}
+.sec-box p{
+    text-align: center;
+    margin-top: 1px;
+    padding: 40px;
+    font-family: calibri;
+    font-weight: bold;
+}
+.sec-box h4{
+    text-align: center;
+    margin-top: -120px;
+    font-size: 30px;
+    font-family: calibri;
+}
+.sec-box h3{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px; 
+    font-size: 20px;
+    font-family: calibri;
+}
+#button{
+    background-color: #b620ff;
+    width: 120px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    font-family: calibri;
+}
+#button:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: rgb(133,103,198);
+    background: linear-gradient(183deg, rgba(133,103,198,1) 34%, rgba(68,173,233,1) 100%);
+}
